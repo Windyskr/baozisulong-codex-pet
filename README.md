@@ -24,7 +24,21 @@
 
 ## Install
 
-把这个仓库下载到本地后，将 `pet.json` 和 `spritesheet.webp` 放到 Codex pets 目录中的同一个子目录里。
+最简单的方式是直接把这个 GitHub 仓库发给 Codex，让 Codex 帮你安装：
+
+```text
+请安装 Windyskr/baozisulong-codex-pet 这个仓库里的 Codex 宠物。
+```
+
+或者直接给 Codex 这个链接：
+
+```text
+请安装这个 Codex 宠物：https://github.com/Windyskr/baozisulong-codex-pet
+```
+
+推荐给 Codex 完整仓库链接，而不是只发一张图片。这个仓库里已经包含 `pet.json` 和 `spritesheet.webp`，Codex 更容易识别并放到正确位置。单独发图片通常只能作为视觉参考，不一定能直接完成宠物安装。
+
+如果你想手动安装，也可以下载这个仓库后，将 `pet.json` 和 `spritesheet.webp` 放到 Codex pets 目录中的同一个子目录里。
 
 ### Windows
 
@@ -66,10 +80,13 @@ GitHub:
 https://github.com/Windyskr/baozisulong-codex-pet
 
 安装方式：
-1. 打开 GitHub 下载 pet 包
-2. 放到 ~/.codex/pets/baozisulong
+直接对 Codex 说：
+“请安装 Windyskr/baozisulong-codex-pet 这个仓库里的 Codex 宠物。”
+
+或者打开 GitHub 手动安装：
+1. 下载这个仓库
+2. 把 pet.json 和 spritesheet.webp 放到 ~/.codex/pets/baozisulong
 3. 重启 Codex，在 Pet 设置里选择它
 
 #汪苏泷 #罗曼星球 #ROMANOVA #Codex #AI工具 #桌面宠物 #程序员日常
 ```
-
